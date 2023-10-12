@@ -1,6 +1,6 @@
-body{
+.grad{
   text-align:justify;
-  background-color:#e8e8e8;
+  background-image: linear-gradient(#25b1a3, #30a1a9);
   font-family:calibri;
 }
 
