@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+<div class="row">
+    <div class="col-sm-12 col-md-3 col-lg-3">
+        <br>
+        <div class="card card-body">
+            <img id="profile-pic" src="{% static 'images/IMG_20221011_121916.jpg' %}">
+            <hr>
+            <h5>Hi, I am Amal Vs</h5>
+            <p style="font-size:14px;">I like building things and I love to learning new technologies.</p>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-9 col-lg-9">
+        <br>
+        <div class="card card-body">
+            <h5>About Myself</h5>
+            <p style="font-size:14px;">
+                I started my journey into Web Development with my first project of printing "Hello World" in python.
+                Ever since then, I was eager to find solutions to every problem that came across.
+                My first project was to create a Movie Database website sing Python and Django
+            </p>
+        </div>
+    </div>
+</div>
+    <br>
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="card card-body">
+            <h2>Amal Vs</h2>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="card card-body">
+            <h2>Amal Vs</h2>
+        </div>
+    </div>
+</div>
+{% endblock %}
